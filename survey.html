@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>survey-form</title>
+  </head>
+  <body>
+    <header>
+<h1 id="title">Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+  </header>
+  <main>
+<form id="survey-form" type="submit">
+<label for="name" id="name-label">Name</label><br>
+<input type="text" id="name" placeholder=" Enter your name" required >
+
+<hr>
+<label for="email" id="email-label"> Email</label><br>
+<input id="email" type="email" placeholder=" Enter your email"required>
+<hr>
+<label for="number" id="number-label">Age(optional)</label><br>
+<input id="number" type="number" min=18 max=98 placeholder="Age">
+<hr>
+<br>
+<label for="dropdown" id="text" placeholder="Select current role">Which option best describes your current role?</label>
+<select id="dropdown" >
+  </br>
+  <hr>
+
+  <option >student</option>
+  <option>full time job</option>
+  <option> full time learner</option>
+  <option> prefer not to say</option>
+  
+</select>
+<hr>
+<br>
+<label for="radio" id="text">Would you recommend freeCodeCamp to a friend?</label>
+<br>
+<input type="radio" name="radio-group" id= Definitely value="Definitely" >
+
+<label for=" Definitely" >Definitely</label>
+<hr>
+<input type="radio" name="radio-group" id=  Maybe value="Maybe">
+<label for="  Maybe "> Maybe </label>
+<hr>
+<input type="radio" name="radio-group" id= Not sure value="Not sure">
+<label for=" Not sure ">  Not sure </label>
+<hr>
+<input type="submit">
+<hr>
+<label for="checkbox" id="text">What would you like to see improved? </label>
+<br>
+<input type="checkbox" value="Front-end Projects">
+<label for="checkbox" id="text">Front-end Projects</label><hr>
+<input type="checkbox"  value="Data Visualization">
+<label for="checkbox" id="text">Data Visualization</label>
+<hr>
+<input type="checkbox"  value="Back-end Projects">
+<label for="checkbox" id="text">Back-end Projects</label><hr>
+<input type="checkbox"  value="Open Source Community">
+<label for="checkbox" id="text">Open Source Community</label>
+<hr>
+<label for="textarea" id="text">Any comments or suggestions?</label>
+<textarea placeholder="Enter comment here"></textarea>
+<hr>
+<input type="submit" id="button"></input>
+
+<button id="submit"></button>
+<a href="<link rel="stylesheet" href="styles.css"></a>
+
+</form>
+  </main>
+  </body>
+</html>
